@@ -6,3 +6,12 @@
 body {
     background-image: url("../images/throne.jpg");
 }
+
+.panel-title {
+	font-weight: bold;
+	color: maroon;
+}
+
+.panel-body {
+	font-weight: bold;
+}
