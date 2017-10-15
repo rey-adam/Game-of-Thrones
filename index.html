@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game of Thrones</title>
+    <!--Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- internal CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="jumbotron">
+            <h1 class="text-center">The Game of Thrones!</h1>
+        </div>
+        <!-- Instructions -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading text-center">
+                        <h3 class="panel-title">Instructions - "When you play the game of thrones, you win or you die. There is no middle ground."</h3>
+                    </div>
+                    <div class="panel-body">
+                        You will be given a random number at the start of the game. <br>
+                        There are four characters below. By clicking on a character you will add a specific amount of points to your total score.<br>You win the game of thrones by matching your total score to the random number, you lose the throne if your total score goes above the random number. <br>
+                        The value of each character is hidden from you until you click on it. Each time when the game starts, the game will change the values of each character.
+                    </div>
+                </div>
+            </div>
+            <!-- target score -->
+            <div class="col-lg-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading text-center">
+                        <h3 class="panel-title">Target Score</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        56
+                    </div>
+                </div>
+            </div>
+            <!-- your score -->
+            <div class="col-lg-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading text-center">
+                        <h3 class="panel-title">Your Score</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        12
+                    </div>
+                </div>
+            </div>
+            <!-- crystal options -->
+            <div class="col-lg-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading text-center">
+                        <h3 class="panel-title text-center">Who will sit in the Iron Throne and rule the Seven Kingdoms?</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="assets/images/cersie.png" alt="cersie">
+                        <img src="assets/images/dany.png" alt="dany">
+                        <img src="assets/images/snow.png" alt="snow">
+                        <img src="assets/images/nightk.png" alt="night king">
+                    </div>
+                </div>
+            </div>
+            <!-- wins -->
+            <div class="col-lg-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading text-center">
+                        <h3 class="panel-title">Wins</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        0
+                    </div>
+                </div>
+            </div>
+            <!-- losses -->
+            <div class="col-lg-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading text-center">
+                        <h3 class="panel-title">Losses</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        0
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jquery link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- jaquery internal link -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
