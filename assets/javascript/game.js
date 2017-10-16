@@ -1,9 +1,6 @@
 // alert("welcome!");
 
 
-// global variables 
-
-
 // character variables 
 
 var characters = {
@@ -50,7 +47,7 @@ var startGame = function() {
 
 
 // reset current score
-var currentScore = 0;
+currentScore = 0;
 
 // The random number shown at the start of the game should be between 19 - 120
 targetScore = getRandomNumber(19, 120)
@@ -78,12 +75,46 @@ var addScore = function(characters) {
 
 	// changes the current score 
 	currentScore = currentScore + characters.value;
+
+	// change HTML to reflect the change on your score 
+	$("#yourScore").html(currentScore);
 	
+	// call the checkWin fucntion 
+	checkWin();
 
 	// testing
 	console.log("Your Score: " + currentScore);
 }
 
+// check if user win or lost 
+var checkWin = function() {
+	if(currentScore > targetScore) {
+		alert("You will not rule the Seven Kingdoms!");
+		console.log("you lost");
+
+		// add lost counter
+		lossCount++;
+
+		//change HTML count
+		$("#lossCount").html(lossCount);
+
+		// restart the game 
+		startGame();
+	}
+
+	else if(currentScore === targetScore) {
+		alert("You have won the Game of Thrones!")
+
+		// add win counter
+		winCount++;
+
+		//change HTML count
+		$("#winCount").html(winCount);
+
+		// restart the game 
+		startGame();
+	}
+}
 
 
 // main process 
@@ -107,13 +138,5 @@ $("#nightKing").click(function() {
 
 startGame();
 
-
-// if player wins 
-
-// if player losses 
-
-// start game 
-
-// restart game 
 
 
