@@ -1,8 +1,6 @@
-# week-4-game
+# The Game of Thrones game
 
+Play the game here: http://www.reyadamcruz.com/Game-of-Thrones/
 
+![Alt Text](/assets/images/game-of-thrones-game.gif)
 
-
-
-
-/Users/reycruz/coding_bootcamp/homework/week-4-game/assets/images/game-of-thrones-game.gif
