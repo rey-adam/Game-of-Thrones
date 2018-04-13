@@ -116,6 +116,25 @@ var checkWin = function() {
 	}
 }
 
+// CHECK HOW MANY TURNS USER WINS TO RESET THE GAME 
+// var fiveWins = function() {
+// 	console.log("wahhhttttttt");
+// 	if(winCount === 2) {
+// 		alert("You are the new ruler to the Seven Kingdoms!")
+// 		console.log("winner!")
+
+// 		// restart the game 
+// 		startGame();
+// 	}
+// 	else if(lossCount > 5){
+// 		alert("You lost the Game of Thrones. You will die!")
+// 		console.log("loserrrrr!!!")
+
+// 		// restart the game 
+// 		startGame();
+// 	}
+// }
+
 
 // main process 
 // onclick functions 
