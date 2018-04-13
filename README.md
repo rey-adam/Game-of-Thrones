@@ -3,8 +3,7 @@
 Play the game here: http://www.reyadamcruz.com/Game-of-Thrones/
 
 This application was built using 
-- HTML, CSS, and JavaScript
-- GIHPY API was also used 
+- HTML, CSS, JavaScript and jQuery 
 
 
 ![Alt Text](/assets/images/game-of-thrones-game.gif)
