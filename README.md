@@ -1,1 +1,4 @@
-# week-4-game
+# Game of Thornes
+
+Play the game here: http://www.reyadamcruz.com/Game-of-Thrones/
+
